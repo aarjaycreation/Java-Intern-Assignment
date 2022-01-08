@@ -1,0 +1,11 @@
+create database STUDENT_DB;
+ 
+use STUDENT_DB;
+ 
+CREATE TABLE `student` (
+    `student_no` int(3) NOT NULL AUTO_INCREMENT,
+    `student_name` varchar(45) NOT NULL,
+    `dob` date NOT NULL,
+    `doj` date NOT NULL,
+    PRIMARY KEY (`student_no`)
+);
